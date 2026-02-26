@@ -1,10 +1,12 @@
+const easeOutCinematic: [number, number, number, number] = [0.22, 1, 0.36, 1];
+
 export const reveal = {
   hidden: { opacity: 0, y: 18, scale: 0.985 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] }
+    transition: { duration: 0.6, ease: easeOutCinematic }
   }
 };
 
@@ -20,6 +22,6 @@ export const sectionLine = {
   visible: {
     scaleX: 1,
     opacity: 1,
-    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] }
+    transition: { duration: 0.7, ease: easeOutCinematic }
   }
 };

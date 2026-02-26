@@ -22,7 +22,10 @@ export function ParallaxLayer({
   const sx = useSpring(x, { stiffness: 120, damping: 18 });
   const sy = useSpring(y, { stiffness: 120, damping: 18 });
   const sscrollY = useSpring(scrollY, { stiffness: 120, damping: 18 });
-  const combinedY = useTransform([sy, sscrollY], ([mouseY, scrollOffset]) => mouseY + scrollOffset);
+  const combinedY = useTransform([sy, sscrollY], (values) => {
+    const [mouseY, scrollOffset] = values as [number, number];
+    return mouseY + scrollOffset;
+  });
 
   useEffect(() => {
     if (reduced) return;
