@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useReducedMotionSafe } from "@/components/motion/use-reduced-motion-safe";
 
-export function TypingTagline({ phrases }: { phrases: string[] }) {
+export function TypingTagline({ phrases }: { phrases: readonly string[] }) {
   const reduced = useReducedMotionSafe();
   const safePhrases = useMemo(() => phrases.filter(Boolean), [phrases]);
   const [phraseIndex, setPhraseIndex] = useState(0);
