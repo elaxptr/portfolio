@@ -1,0 +1,59 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A12"/>
+      <stop offset="1" stop-color="#0C1422"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 160) rotate(26) scale(380 280)">
+      <stop stop-color="#53D0FF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#53D0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 120) rotate(144) scale(360 280)">
+      <stop stop-color="#788CFF" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#788CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="176" y1="436" x2="700" y2="436" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#53D0FF" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <rect width="1200" height="630" fill="url(#g2)"/>
+
+  <g opacity="0.16">
+    <path d="M0 58H1200" stroke="white"/>
+    <path d="M0 118H1200" stroke="white"/>
+    <path d="M0 178H1200" stroke="white"/>
+    <path d="M0 238H1200" stroke="white"/>
+    <path d="M0 298H1200" stroke="white"/>
+    <path d="M0 358H1200" stroke="white"/>
+    <path d="M0 418H1200" stroke="white"/>
+    <path d="M0 478H1200" stroke="white"/>
+    <path d="M0 538H1200" stroke="white"/>
+    <path d="M86 0V630" stroke="white"/>
+    <path d="M206 0V630" stroke="white"/>
+    <path d="M326 0V630" stroke="white"/>
+    <path d="M446 0V630" stroke="white"/>
+    <path d="M566 0V630" stroke="white"/>
+    <path d="M686 0V630" stroke="white"/>
+    <path d="M806 0V630" stroke="white"/>
+    <path d="M926 0V630" stroke="white"/>
+    <path d="M1046 0V630" stroke="white"/>
+    <path d="M1166 0V630" stroke="white"/>
+  </g>
+
+  <rect x="92" y="76" width="1016" height="478" rx="28" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <circle cx="160" cy="138" r="5" fill="#53D0FF"/>
+  <circle cx="1030" cy="470" r="72" fill="#53D0FF" fill-opacity="0.07"/>
+  <circle cx="950" cy="486" r="96" fill="#788CFF" fill-opacity="0.06"/>
+
+  <text x="176" y="184" fill="#87DAFF" font-family="monospace" font-size="20" letter-spacing="5">ELAXPTR.DEV</text>
+  <text x="176" y="286" fill="#EAEFF7" font-family="Arial, sans-serif" font-size="76" font-weight="700">Joel P.</text>
+  <text x="176" y="356" fill="#EAEFF7" font-family="Arial, sans-serif" font-size="50" font-weight="600">Software Developer</text>
+  <rect x="176" y="392" width="524" height="2" fill="url(#line)"/>
+  <text x="176" y="438" fill="#9AA7BC" font-family="Arial, sans-serif" font-size="28">
+    Modern developer portfolio · minimal · polished · technical
+  </text>
+</svg>
